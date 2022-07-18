@@ -40,10 +40,17 @@
 .address__transactions__title {
     width: fit-content;
     padding: 7px 4px 7px 1px;
+    color: var(--lb);
+    font-weight: 500;
+    border-bottom: 1px solid var(--lb);
 }
 
 .transactions-display {
     padding: 10px 0;
+}
+
+.transactions-display span {
+    color: var(--lb);
 }
 
 #transactions {

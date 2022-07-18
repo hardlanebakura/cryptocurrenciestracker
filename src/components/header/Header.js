@@ -3,6 +3,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import './header.css';
 import axios from 'axios';
 const API_KEY = "BQ5MPCH9V4Q18W8P95SNMMNKTB7Y64YZAK";
+//usually I hide API keys in env variables, but exposed it for easier demonstration purposes
 
 const Header = () => {
 

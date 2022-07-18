@@ -12,5 +12,16 @@ How to install
     <li>npm start</li>
 </ul>
 
+Notes:
+#Website will not handle invalid user input but rather will just make it unable to navigate to address page</li>
+#Example addresses:
+
+<ul>
+    <li>0x3afe4140e845843743bbb6216c1cdbbf2fa7a36a</li>
+    <li>0x0a91d55399e0eda82b4d80fbfe57f25ad7a3d25c</li>
+    <li>0xb904d44ca7b7aa5e12ce2c72b48701ea09dd6052</li>
+    <li>0x254a5e977efc4e80ccd76b23c46300440ca7fc55</li>
+</ul>
+
 Thanks for checking out my website!
 
