@@ -1,7 +1,7 @@
 # Simple API project in React
 
 <img src = "https://user-images.githubusercontent.com/74912567/179475684-d560a3b2-fdc9-4b9d-978c-9d0f8b04fb83.png" height = "170" width = "230" >
-<img src = "https://user-images.githubusercontent.com/74912567/179476110-d3ebf11c-2cc4-4671-a094-335ed943a419.png" height = "170" width = "230" >
+<img src = "https://user-images.githubusercontent.com/74912567/179476580-6359475a-63ab-4167-a090-e414bd7da324.png" height = "170" width = "230" >
 
 How to install
 <ul>
