@@ -1,5 +1,7 @@
 # Simple API project in React
 
+<img src = "https://user-images.githubusercontent.com/74912567/179475684-d560a3b2-fdc9-4b9d-978c-9d0f8b04fb83.png" height = "170" width = "230" >
+
 How to install
 <ul>
     <li>git clone https://github.com/hardlanebakura/api1.git</li>
