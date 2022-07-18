@@ -7,6 +7,7 @@ import { Address as Addr } from '../../api_classes/Address';
 import { Gecko } from '../../api_classes/CoinGecko';
 
 const API_KEY = "BQ5MPCH9V4Q18W8P95SNMMNKTB7Y64YZAK";
+//usually I hide API keys in env variables, but exposed it for easier demonstration purposes
 
 const Address = () => {
 
