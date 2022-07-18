@@ -1,0 +1,95 @@
+@import '../../index.css';
+
+.address {
+    margin: 40px;
+    padding: 12px;
+
+}
+
+.address__title {
+    padding: 12px 9px;
+    border-bottom: 1px solid var(--border);
+}
+
+.address__overview-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.address__overview {
+    box-shadow: 0 0.5rem 1.2rem rgb(189 197 209 / 20%);
+    width: 54%;
+    margin: 22px 0;
+}
+
+.address__overview > * {
+    padding: 12px 10px;
+    border-bottom: 1px solid var(--border);
+}
+
+.address__overview__field {
+    display: flex;
+}
+
+.address__transactions {
+    box-shadow: 0 0.5rem 1.2rem rgb(189 197 209 / 20%);
+    padding: 12px 10px;
+}
+
+.address__transactions__title {
+    width: fit-content;
+    padding: 7px 4px 7px 1px;
+}
+
+.transactions-display {
+    padding: 10px 0;
+}
+
+#transactions {
+    table-layout: fixed;
+    width: 100%;
+
+}
+
+.transaction-in {
+    padding: 7px;
+    border-radius: 7px;
+    background-color: var(--t);
+    color: var(--g);
+}
+
+.transaction-out {
+    padding: 7px;
+    border-radius: 7px;
+    background-color: var(--ly);
+    color: var(--o);
+}
+
+#transactions div {
+    padding-top:11px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.title-center {
+    display: flex;
+    justify-content: center;
+}
+
+.address__overview__field__title {
+    margin-left:4%;
+}
+
+.address__overview__field__value {
+    margin-left: auto;
+    margin-right: 4%;
+}
+
+
+
+
+
+
+

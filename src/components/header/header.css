@@ -1,0 +1,21 @@
+@import '../../index.css';
+
+.header-wrapper {
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+
+.header {
+
+    width: 100%;
+    text-align: center;
+    padding: 14px 0;
+    background-color: var(--db);
+
+}
+
+
+
