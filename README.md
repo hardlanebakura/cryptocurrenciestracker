@@ -13,8 +13,8 @@ How to install
 </ul>
 
 Notes:
-# Website will not handle invalid user input but rather will just make it unable to navigate to address page</li>
-# Example addresses:
+### Website will not handle invalid user input but rather will just make it unable to navigate to address page</li>
+### Example addresses:
 
 <ul>
     <li>0x3afe4140e845843743bbb6216c1cdbbf2fa7a36a</li>
