@@ -1,0 +1,13 @@
+#navbar-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+#navbar {
+    display: flex;
+}
+
+.navbar-item {
+    margin-inline: 19px;
+}

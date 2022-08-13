@@ -64,6 +64,11 @@ class Gecko {
 
     }
 
+    static async getChartsForCoin (coin, days) {
+        const response = await axios.get(`${URL}coins/${coin}/market_chart?vs_currency=USD&days=${days}`);
+        return response;
+    }
+
 }
 
 const getAllCoins = async () => {
@@ -76,4 +81,6 @@ const getAllCoins = async () => {
 
 module.exports.getAllCoins = getAllCoins;
 module.exports.Gecko = Gecko;
+
+
 

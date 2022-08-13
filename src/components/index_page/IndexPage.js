@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './index_page.css';
 import axios from 'axios';
 import { ArrowDropUp as ArrowUp, ArrowDropDown as ArrowDown } from '@mui/icons-material';
+import Navbar from '../navbar/Navbar';
 const { getAllCoins, Gecko } = require('../../api_classes/CoinGecko');
 
 const IndexPage = () => {
@@ -19,6 +20,7 @@ const IndexPage = () => {
   const getBitcoinRanking = () => {
 
     getAllCoins().then(response => setBitcoinRanking(response));
+    Gecko.getChartsForCoin("bitcoin").then(response => console.log(response));
 
   }
 
@@ -32,6 +34,7 @@ const IndexPage = () => {
 
   return (
         <div className="main">
+            <Navbar />
             { bitcoinRanking.length > 0 && 
             <div id = "table__wrapper">
                 <table id ="bitcoin-ranking">
